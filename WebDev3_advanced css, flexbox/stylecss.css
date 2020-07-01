@@ -1,0 +1,31 @@
+html{
+      background: linear-gradient(to left, #ef32d9, #89fffd);
+      font-family: 'Permanent Marker', cursive;
+      box-sizing: border-box;
+}
+ .head{
+      border-right: 4px grey solid ;
+      border-top: 4px grey solid ;
+      border-radius: 3px;
+      width: 450px;
+
+
+} 
+img{
+      width: 90px;
+      height: 95px;
+      display: flex;
+      justify-content: center space-around;
+      transition: all 2s;
+}
+img:hover{
+      transform : scale(1.1);
+}
+
+
+
+footer{
+      border: none;
+      float: bottom;
+}
+

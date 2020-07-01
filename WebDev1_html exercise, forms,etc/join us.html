@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html style="background-color: rgba(211, 185, 178, 0.664); color: rgb(24, 49, 235);">
+<!-- intro. section -->
+
+<head>
+      <title> Subject Suggestor</title>
+      <hr>
+      <center style="padding: 0.0011cm; background-color: rgba(183, 235, 106, 0.952); color: black;">
+            <h1>Subject Suggestor</h1>
+            <strong><em>
+                        <p>
+                              <h2>
+                                    This website describes the list of subjetcs which are required for qualifying
+                                    engineering first year
+                              </h2>
+                        </p>
+                  </em></strong>
+      </center>
+      <hr>
+      <h3>JOIN US</h3>
+      <!-- below are navigations do insert links there later -->
+      <nav>
+            <a href="/home/ayaan/Desktop/newIndex.html">HOME  ||     </a>
+            <a href="/home/ayaan/Desktop/about us.html">    ABOUT US ||</a>
+            <a href="/home/ayaan/Desktop/contact us.html">    CONTACT US ||</a>
+            <a href="/home/ayaan/Desktop/join us.html">   JOIN US </a>
+      </nav>
+</head>
+
+<body>
+      <!-- use check boxes also -->
+      <form method="PUT">
+            <ol>
+                  <li><label for="name">Enter your name :</label></li>
+                  <input type="text" name="name" alt="enter" minlength="5" required><br><br>
+
+                  <li> <label for="email">Email :</label></li>
+                  <input type="email" name="email" required><br><br>
+
+                  <li><label for="mobile">Mobile : </label></li>
+                  <input type="number" name="mobile"><br><br>
+
+                  <!-- <li></li><label for="password">Password : </label></li> -->
+                  <li>
+                        <fieldset>
+                              <!-- work on passwords later  -->
+                              <!-- password not working currently -->
+                              passwords ::
+                              <input type="password" name="pass">
+                              <input type="password" name="pass">
+                        </fieldset>
+                  </li> <br><br>
+
+                  <li><label for="C_name">Enter your college name : || and college type :</label></li>
+                  <input type="text" name="C_name" alt="enter" minlength="5" required>
+                  <!-- drop down menu for college type selection -->
+                  <select required>
+                        <option value="..">..</option>
+                        <option value="autonomous">autonomous</option>
+                        <option value="other">other</option>
+                  </select><br><br>
+
+                  <!-- drop down menu for university selection -->
+                  <li><label for="University">University :</label></li>
+                  <select name="University">
+                        <option value="select">select</option>
+                        <option value="DBATU">DBATU</option>
+                        <option value="BAMU">BAMU</option>
+                        <option value="SRTM">SRTM</option>
+                        <option value="SRM">SRM</option>
+                        <option value="AMITY">AMITY</option>
+                        <option value="JNTU">JNTU</option>
+                        <option value="JNU">JNU</option>
+                        <option value="JADAVPUR">JADAVPUR</option>
+                        <option value="JAMIA">JAMI</option>
+                        <option value="VIT">VIT</option>
+                        <option value="other">other</option>
+
+                  
+                  </select><br><br> 
+                  <li><label for="join_type">Join us for :</label></li>
+                  <input type="checkbox" name="join_type" value="Engineering"> Engineering <br> 
+                  <input type="checkbox" name="join_type" value="Medical"> Medical <br>
+                  <input type="checkbox" name="join_type" value="Law"> Law <br> 
+                  <input type="checkbox" name="join_type" value="Other"> Other <br> 
+
+
+            </ol>
+
+            <!-- reset and submit buttons using input or button tag -->
+            <label for="reset"></label>
+            <button type="reset">reset</button>
+            <label for="submit"></label>
+            <input type="submit" value="submit">
+            <!-- <button type="submit" onclick="alert('Responce submitted')">Click when done!</button>  -->
+      </form>
+      <footer>
+            <h3> <a href="/home/ayaan/Desktop/newIndex.html">HOME  ||</a></h3>
+      
+      </footer>
+</body>
+
+
+</html>
